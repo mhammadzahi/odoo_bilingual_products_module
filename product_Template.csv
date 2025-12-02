@@ -1,9 +1,14 @@
-External ID,Name,Product Type,Internal Reference,Barcode,Sales Price,Cost,Weight,Sales Description
-product_apple_headphones_2024,Apple In-Ear Headphones,Goods,E-COM08,,79,7044,,"Frequency: 5Hz to 21kHz
+External ID,Name,Product Type,Internal Reference,Barcode,Sales Price,Cost,Weight,Sales Description,Name (Arabic),Sales Description (Arabic)
+product_apple_headphones_2027,Apple In-Ear Headphones,Goods,E-COM08,,79,7044,,"Frequency: 5Hz to 21kHz
 Impedance: 23 ohms
 Sensitivity: 109 dB SPL/mW
 Drivers: two-way balanced armature
 Cable length: 1065 mm
-Weight: 10.2 grams"
-product_apple_keyboard_2024,Apple Wireless Keyboard,Goods,E-COM10,,47,10,,The sleek aluminium Apple Wireless Keyboard.
-product_bose_speaker_2024,Bose Mini Bluetooth Speaker,Goods,E-COM05,,247,140,,Bose's smallest portable Bluetooth speaker
+Weight: 10.2 grams",سماعات أذن أبل,"التردد: 5 هرتز إلى 21 كيلوهرتز
+المقاومة: 23 أوم
+الحساسية: 109 ديسيبل
+السائقون: متوازن ثنائي الاتجاه
+طول الكابل: 1065 مم
+الوزن: 10.2 جرام"
+product_apple_keyboard_2027,Apple Wireless Keyboard,Goods,E-COM10,,47,10,,The sleek aluminium Apple Wireless Keyboard.,لوحة مفاتيح أبل اللاسلكية,لوحة مفاتيح أبل اللاسلكية الأنيقة المصنوعة من الألومنيوم
+product_bose_speaker_2027,Bose Mini Bluetooth Speaker,Goods,E-COM05,,247,140,,Bose's smallest portable Bluetooth speaker,مكبر صوت بلوتوث صغير من بوز,أصغر مكبر صوت بلوتوث محمول من بوز
