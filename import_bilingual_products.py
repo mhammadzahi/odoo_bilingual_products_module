@@ -124,10 +124,12 @@ def generate_import_xml(csv_file, output_file='product_data.xml'):
     
     for product in products:
         ext_id = product['External ID']
+        # Extract just the ID part after the last dot for XML id attribute
+        xml_id = ext_id.split('.')[-1] if '.' in ext_id else ext_id
         product_type = 'product' if product['Product Type'] == 'Goods' else 'service'
         
         xml_content += f'''
-        <record id="{ext_id}" model="product.template">
+        <record id="{xml_id}" model="product.template">
             <field name="name">{product['Name']}</field>
             <field name="type">{product_type}</field>
             <field name="default_code">{product['Internal Reference']}</field>
